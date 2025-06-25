@@ -10,14 +10,25 @@ for (let i = 0; i < 30; i++) {
 
 const sections = {
   home: `
-    <h1>Marcos Vinicius</h1>
-    <div class="social-links">
-      <a href="https://github.com/Marcos-Ara" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/marcos-vinicius-73b302355/" target="_blank">LinkedIn</a>
-      <a href="#" target="_blank">Catho</a>
-      <a href="#" target="_blank">Instagram</a>
-      <a href="#" target="_blank">Outro Link</a>
-    </div>
+  <h1>Marcos Vinicius</h1>
+<div class="social-links">
+  <a href="https://github.com/Marcos-Ara" target="_blank" class="github">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/marcos-vinicius-73b302355/" target="_blank" class="linkedin">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="#" target="_blank" class="discord">
+    <i class="fab fa-discord"></i> Discord
+  </a>
+  <a href="#" target="_blank" class="instagram">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="#" target="_blank" class="link">
+    <i class="fas fa-link"></i> Outro Link
+  </a>
+</div>
+
   `,
   about: `
     <h1>Sobre Mim</h1>
