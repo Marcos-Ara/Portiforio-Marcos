@@ -83,7 +83,8 @@ function setActiveSection(section) {
       }
 
       const text = encodeURIComponent(`Nome: ${nome}\nEmail: ${email}\nMensagem: ${mensagem}`);
-      window.open(`https://wa.me/qr/KCCUDXTOCIZ6C1?text=${text}`, '_blank');
+     window.open(`https://wa.me/5511937477452?text=${text}`, '_blank');
+
     });
   }
 }
